@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/WhereIsWaldo/static/css/main.3b9aaa0e.chunk.css",
+    "main.css": "/WhereIsWaldo/static/css/main.a7bb3024.chunk.css",
     "main.js": "/WhereIsWaldo/static/js/main.b7ed21c9.chunk.js",
     "main.js.map": "/WhereIsWaldo/static/js/main.b7ed21c9.chunk.js.map",
     "runtime-main.js": "/WhereIsWaldo/static/js/runtime-main.12fb8c0c.js",
@@ -8,15 +8,15 @@
     "static/js/2.906c5573.chunk.js": "/WhereIsWaldo/static/js/2.906c5573.chunk.js",
     "static/js/2.906c5573.chunk.js.map": "/WhereIsWaldo/static/js/2.906c5573.chunk.js.map",
     "index.html": "/WhereIsWaldo/index.html",
-    "precache-manifest.e868caad7561241a1f18bfa82fa2ed44.js": "/WhereIsWaldo/precache-manifest.e868caad7561241a1f18bfa82fa2ed44.js",
+    "precache-manifest.141250251ddda41be42f93e97103956d.js": "/WhereIsWaldo/precache-manifest.141250251ddda41be42f93e97103956d.js",
     "service-worker.js": "/WhereIsWaldo/service-worker.js",
-    "static/css/main.3b9aaa0e.chunk.css.map": "/WhereIsWaldo/static/css/main.3b9aaa0e.chunk.css.map",
+    "static/css/main.a7bb3024.chunk.css.map": "/WhereIsWaldo/static/css/main.a7bb3024.chunk.css.map",
     "static/js/2.906c5573.chunk.js.LICENSE.txt": "/WhereIsWaldo/static/js/2.906c5573.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.12fb8c0c.js",
     "static/js/2.906c5573.chunk.js",
-    "static/css/main.3b9aaa0e.chunk.css",
+    "static/css/main.a7bb3024.chunk.css",
     "static/js/main.b7ed21c9.chunk.js"
   ]
 }
