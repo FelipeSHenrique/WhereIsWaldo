@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.contentWin {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 38em;
+    background-color: rgb(239, 239, 247);
+    z-index: 2;
+    box-shadow: 0px 10px 50px rgba(61, 59, 90, 0.637);
+}
+
+.winnerList {
+    margin: 6px auto;
+    align-content: center;
+    background-color: rgb(231, 224, 238);
+    border-radius: 5px;
+    width: 25em;
+    height: 13em;
+    z-index: 2;
+    overflow: auto;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+
+.winnerList > div > h2 {
+    margin-bottom: -15px;
+    margin-top: 0px;
+    position: absolute;
+    width: inherit;
+    height: max-content;
+}
+
+
+.winnerList > ol {
+    margin-left: -2.3em;
+    display: flow-root;
+    margin-top: 3.2em;
+    position: relative;
+}
+
+.winnerList > ol > li {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2px;
+    background: rgb(148, 199, 202);
+    width: 92%;
+    border-radius: 2px;
+}
+
+.winnerList > ol > li:nth-child(odd) {
+    background: rgb(165, 172, 182);
+}
+
+
+
+
+
+.winnerList > ol > li > div {
+    position: relative;
+    margin: 0 1.2em;
+    width: 6em;
+}
+
+.titleList {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-left: -2em;
+    border-radius: 2px;
+}
+
+.titleList > div {
+    margin: 0 auto;
+    width: 7.1em;
+    font-weight: bold;
+    z-index: 10;
+    padding: 5px;
+    background-color: rgb(231, 224, 238);
+}
+
+
+.listHeader > ul {
+    margin-top: -1em;
+}
