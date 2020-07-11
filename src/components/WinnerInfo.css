@@ -50,13 +50,13 @@
     text-align: center;
     margin: 0 auto;
     padding: 2px;
-    background: rgb(148, 199, 202);
+    background: rgb(187, 239, 241);
     width: 92%;
     border-radius: 2px;
 }
 
 .winnerList > ol > li:nth-child(odd) {
-    background: rgb(165, 172, 182);
+    background: rgb(255, 255, 255);
 }
 
 
