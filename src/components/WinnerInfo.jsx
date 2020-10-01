@@ -52,11 +52,7 @@ const WinnerInfo = (props) => {
         console.log(formName)
         console.log('Formulário enviado')
     }
-    
-    const handleName = (e) => {
-        setFormName(e.target.value)
-    }
-
+   
     return (
         <div className='container'>
             <div className='contentWin'>
@@ -67,7 +63,7 @@ const WinnerInfo = (props) => {
                 <br></br>
                 <form onSubmit={handleSubmit}>
                     <label htmlFor="fname">Informe seu nome para ser incluido na lista de vencedores.
-                    <input onChange={handleName} type="text" id="fname" name="fname"></input>
+                    <input onChange={e => setFormName(e.target.value)} type="text" id="fname" name="fname"></input>
                     </label>
                     <input type="submit" value="Salvar" />
                 </form>
